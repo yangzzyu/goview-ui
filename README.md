@@ -23,8 +23,8 @@ pnpm i goview-ui
 
 ```js
 // 在main.js中按下引入
-import goViewui from "goviewui";
-import "goviewui/dist/style.css";
+import goViewui from "goview-ui";
+import "goview-ui/dist/style.css";
 import { createPinia } from "pinia";
 const pinia = createPinia();
 const app = createApp(App);
